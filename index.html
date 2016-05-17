@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Project Basic 12</title>
+	<!-- JQUERY-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<!-- TECNOLOGIA BOOTSTRAP-->
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+	<!-- FIN ESTILOS BOOSTRAP -->
+
+	<!-- MIS ESTILOS -->
+	<link rel="stylesheet" type="text/css" href="estilos.css">
+
+	<!--COLOR BOX -->
+		<link rel="stylesheet" href="colorbox-master/example2/colorbox.css" />
+		<script src="colorbox-master/jquery.colorbox.js"></script>
+		<script type="text/javascript">
+				$(document).ready(function(){
+			$(".iframe").colorbox({inline:true, width:"90%"});
+		});
+		</script>
+</head>
+
+<body>
+
+<!-- 12 COLUMNAS MAXIMO-->
+
+<div class="container-fluid"> <!-- CREAS UN CONTENEDOR EN LA PANTALLA , OBLIGATORIO LA PRIMERA VEZ :V
+Container no es toda la pantalla
+contaier-fluid es toda la pantalla 
+-->
+	<div class="row"> <!-- CREAS UNA FILA OPCIONAL YA QUE AL PONER col-md-12 -->
+		<h1>Tecnologia</h1>
+	</div>
+	<div class="row">	
+	<div class="col-md-2"></div>
+		<div class="col-md-8">
+			<h2>Software</h2>
+			<div class="micuadro">
+
+				<a class='iframe' href="#divSoftware">
+
+				<img src="1.jpg" class="img img-responsive"> <!-- Bootstrap la clase img-responsive lo que te hace es ajustar la imagen del texto-->
+
+				</a>
+				
+			</div>
+		<div class="col-md-2"></div>	
+</div>
+<div class="row">
+		</div>
+		<div class="col-md-2"></div>
+		<div class="col-md-8">
+			<h2>Hardware</h2>
+			<div class="micuadro">
+				<a class='iframe' href="#divHardware">
+
+				<img src="2.jpg" class="img img-responsive"> <!-- Bootstrap la clase img-responsive lo que te hace es ajustar la imagen del texto-->
+
+				</a>
+			</div>
+<div class="col-md-2"></div>
+		</div>
+
+		</div>
+
+		<div class="row">
+		<div class="col-md-2"></div>
+		<div class="col-md-8">
+			<h2>Realidad Virtual</h2>
+			<div class="micuadro">
+					<a class='iframe' href="#divVirtualReality">
+
+				<img src="3.png" class="img img-responsive"> <!-- Bootstrap la clase img-responsive lo que te hace es ajustar la imagen del texto-->
+
+				</a>
+			</div>
+
+		</div>
+		<div class="col-md-2"></div>
+	</div>
+
+</div>
+
+
+
+
+		<div style='display:none'>
+
+			<div id='divSoftware' style='padding:50px; background:white;'>
+		
+
+			<div class="container-fluid">
+				<div class="row" style="padding-bottom:40px;">
+					<div class="col-md-6">
+							<img src="1.jpg" class="img img-responsive">
+					</div>
+					<div class="col-md-6">
+						<h1>Description</h1>
+						<p>
+							TODA LA DESCRIPCION
+						</p>
+					</div>
+				</div>
+			</div>
+</div>
+
+
+			<div id='divHardware' style='padding:50px; background:white;'>
+		
+
+			<div class="container-fluid">
+				<div class="row" style="padding-bottom:40px;">
+					<div class="col-md-6">
+							<img src="2.jpg" class="img img-responsive">
+					</div>
+					<div class="col-md-6">
+						<h1>Description</h1>
+						<p>
+							TODA LA DESCRIPCION
+						</p>
+					</div>
+				</div>
+			</div>
+
+</div>
+
+			<div id='divVirtualReality' style='padding:50px; background:white;'>
+		
+
+			<div class="container-fluid">
+				<div class="row" style="padding-bottom:40px;">
+					<div class="col-md-6">
+							<img src="3.png" class="img img-responsive">
+					</div>
+					<div class="col-md-6">
+						<h1>Description</h1>
+						<p>
+							TODA LA DESCRIPCION
+						</p>
+					</div>
+				</div>
+			</div>
+
+
+			</div>
+		</div>
+</body>
+</html>
