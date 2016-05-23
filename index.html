@@ -11,6 +11,8 @@
 
 	<!-- Optional theme -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+	<link href='https://fonts.googleapis.com/css?family=Titillium+Web' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Anton' rel='stylesheet' type='text/css'>
 
 	<!-- Latest compiled and minified JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
@@ -18,6 +20,7 @@
 
 	<!-- MIS ESTILOS -->
 	<link rel="stylesheet" type="text/css" href="estilos.css">
+	
 
 	<!--COLOR BOX -->
 		<link rel="stylesheet" href="colorbox-master/example2/colorbox.css" />
@@ -29,7 +32,7 @@
 		</script>
 </head>
 
-<body background="pantalla.jpg"  >
+<body   >
 
 <!-- 12 COLUMNAS MAXIMO-->
 
@@ -37,13 +40,13 @@
 Container no es toda la pantalla
 contaier-fluid es toda la pantalla 
 -->
-	<div class="row"> <!-- CREAS UNA FILA OPCIONAL YA QUE AL PONER col-md-12 -->
-		<h1>Tecnologia</h1>
+	<div class="row back1"> <!-- CREAS UNA FILA OPCIONAL YA QUE AL PONER col-md-12 -->
+		<h1 class="otro" id="autocolor">technology</h1>
 	</div>
-	<div class="row">	
+	<div class="row back1">	
 	<div class="col-md-2"></div>
 		<div class="col-md-8">
-			<h2>Software</h2>
+			<h1 class="otros">Software</h1>
 			<div class="micuadro">
 
 				<a class='iframe' href="#divSoftware">
@@ -55,11 +58,11 @@ contaier-fluid es toda la pantalla
 			</div>
 		<div class="col-md-2"></div>	
 </div>
-<div class="row">
+<div class="row back2">
 		</div>
 		<div class="col-md-2"></div>
 		<div class="col-md-8">
-			<h2>Hardware</h2>
+			<h1  class="otros">Hardware</h1>
 			<div class="micuadro">
 				<a class='iframe' href="#divHardware">
 
@@ -72,10 +75,10 @@ contaier-fluid es toda la pantalla
 
 		</div>
 
-		<div class="row">
+		<div class="row back3">
 		<div class="col-md-2"></div>
 		<div class="col-md-8">
-			<h2>Realidad Virtual</h2>
+			<h1 class="otros">Virtual Reality</h1>
 			<div class="micuadro">
 					<a class='iframe' href="#divVirtualReality">
 
@@ -95,64 +98,84 @@ contaier-fluid es toda la pantalla
 
 		<div style='display:none;color:black !important'>
 
-			<div id='divSoftware' style='padding:50px; background:white;'>
+			<div id='divSoftware' style='padding:20px; background:white;'>
 		
 
 			<div class="container-fluid">
-				<div class="row" style="padding-bottom:40px;">
+				<div class="row" style="padding-bottom:20px;">
 					<div class="col-md-6">
-							<img src="1.jpg" class="img img-responsive">
+							<img src="http://www.engineering.com/Portals/0/BlogFiles/swasserman/Bigstock/bigstock-Web-And-Html-Programming-Flat--60074276.jpg" class="img img-responsive">
 					</div>
 					<div class="col-md-6">
-						<h1>Description</h1>
-						<p>
+						<h1 id="secundario">Description</h1>
+						<p class="">
 							Software y sus componentes.
 						</p>
+						<p ><small>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen.</small> </p>
 					</div>
 				</div>
 			</div>
 </div>
 
 
-			<div id='divHardware' style='padding:50px; background:white;'>
+			<div id='divHardware' style='padding:20px; background:white;'>
 		
 
 			<div class="container-fluid">
-				<div class="row" style="padding-bottom:40px;">
+				<div class="row" style="padding-bottom:20px;">
 					<div class="col-md-6">
-							<img src="2.jpg" class="img img-responsive">
+							<img src="http://mlab.no/blog/wp-content/uploads/2016/01/IMG_3605.jpg" class="img img-responsive">
 					</div>
 					<div class="col-md-6">
-						<h1>Description</h1>
-						<p>
+						<h1 id="secundario">Description</h1>
+						<p class="">
 							Hardware y sus componentes.
 						</p>
+						<p ><small>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. .</small></p>
 					</div>
 				</div>
 			</div>
 
 </div>
 
-			<div id='divVirtualReality' style='padding:50px; background:white;'>
+			<div id='divVirtualReality' style='padding:20px; background:white;'>
 		
 
 			<div class="container-fluid">
-				<div class="row" style="padding-bottom:40px;">
+				<div class="row" style="padding-bottom:20px;">
 					<div class="col-md-6">
-							<img src="3.png" class="img img-responsive">
+							<img src=http://o.aolcdn.com/hss/storage/midas/3a46d7cfdf368f98b6ffd7923db67c58/200264155/morpheus.jpg" class="img img-responsive">
 					</div>
 					<div class="col-md-6">
-						<h1>Description</h1>
-						<p>
+						<h1 id="secundario">Description</h1>
+						<p >
 							 Software with the Hardware for make VirtualReality.
 						</p>
+						<p ><small>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. </small></p>
 					</div>
 				</div>
 			</div>
 
 
 			</div>
+			
 		</div>
+<footer class="container-fluid background4 text-center footer">
+          <p class="lead">&copy; Takishawa All Right Reserved 2016 - By <a href="https://www.facebook.com/traezyseki"  target="_blank">Takeshi</a></p>
+</footer>
+		<script type="text/javascript">
+(function(){
+	var hexacode = ['#ffff00', '#b71c1c', '#304ffe', '#4e342e', '#e040fb'],
+	el = document.getElementById('autocolor').style,
+	counter = -1,
+	hexalen = hexacode.length;
+	function auto(){
+		el.color = hexacode[counter = ++counter % hexalen];
+	}
+	setInterval(auto, 650);
+})();
+</script>
+
 </body>
 </html>
 

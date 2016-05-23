@@ -1,12 +1,95 @@
 
-h1{
+.otro{
 		text-align: center;
+		font-family: 'Anton', sans-serif;
+		text-transform: uppercase;
+		font-size:192px;
+		font-weight: bold;
+		letter-spacing: 0.1em;
+
 	}
 	.micuadro{
-		border: 1px solid red;
+		border: 5px solid white;
+		border-radius: 25px;
 		
 	}
-	h2{
-		text-align: center;
+	img{
+		border-radius: 25px;
 	}
+	h2{
+        color:black;
+		margin-top:20px;
+		text-align: center;
+		font-family: 'Titillium Web', sans-serif;
+		text-transform: uppercase;
+		font-size: 60px;
+	}
+body{
+	background-image: url("http://download.1wallpaper.net/20150209/abstract-tools-job-dark-blue-background-hammer-knife-axe-saw-2560x1600.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+    width: 100%;
+    
+}
 
+h1:hover{
+	color:gray;
+}
+.footer{
+    width: 100%;
+	color: white;
+	font-weight: bold;
+	
+	font-size:48px;
+	
+	letter-spacing: 0.2em;
+    padding-top:70px;
+    padding-bottom:70px;
+}
+.background4{
+    background:#2f2f2f;
+    color:#fff;
+}
+.container-fluid{
+    padding-top:70px;
+    padding-bottom:70px;
+     font: 40px "Monserrat", sans-serif;
+    line-height:1.8;
+    color:#f5f6f7;
+}
+
+.back2{
+
+	background: #474e5d;
+    color:#fff;
+    font: 20px "Monserrat", sans-serif;
+    line-height:1.8;
+    color:#f5f6f7;
+    padding-top:70px;
+    padding-bottom:70px;
+}
+.back3{
+	background: #474e5d;
+    color:#fff;
+    font: 20px "Monserrat", sans-serif;
+    line-height:1.8;
+    color:#f5f6f7;
+    padding-top:70px;
+    padding-bottom:70px;
+}
+p{
+    color: black;
+    font-size: 20px;
+}
+h1#secundario{
+    color: black;
+    text-align-last: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+h1.otros{
+    font-weight: bold;
+    font-size:80px;
+    text-align: center;
+    text-transform: uppercase;
+}
